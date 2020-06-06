@@ -1,4 +1,4 @@
-# README.md
+# Rest API 기반 쿠폰시스템
 
 1. 개발 프레임워크
 
