@@ -18,25 +18,25 @@
  - 발급된 쿠폰 중 3일후 만료되는 쿠폰 사용자에게 메시지 전송(사용자별 조회 기준일로부터 3일 후 만료되는 쿠폰번호 조회)
 
 3. 빌드 및 실행 방법
- 1. 쿠폰 N개 생성 
+ 1) 쿠폰 N개 생성 
   - http://localhost:8080/ex01?cnt=? (발생 건수 입력)
   - 예) http://localhost:8080/ex01?cnt=10
- 2. 사용자에게 쿠폰 지급
+ 2) 사용자에게 쿠폰 지급
   - http://localhost:8080/ex02?userId=? (사용자ID 입력)
   - 예) http://localhost:8080/ex02?userId=jiko
- 3. 사용자에게 지급된 쿠폰 조회
+ 3) 사용자에게 지급된 쿠폰 조회
   - http://localhost:8080/ex03?userId=? (사용자ID 입력)
   - 예) http://localhost:8080/ex03?userId=jiko
- 4. 사용자에게 지급된 쿠폰 사용(재사용은 불가)
+ 4) 사용자에게 지급된 쿠폰 사용(재사용은 불가)
   - http://localhost:8080/ex04?couponId=? (쿠폰번호 입력)
   - 예) http://localhost:8080/ex04?couponId=COUPON-20200607-0000001
- 5. 사용자에게 지급된 쿠폰 사용 취소 처리(취소 후 쿠폰번호 재사용 가능)
+ 5) 사용자에게 지급된 쿠폰 사용 취소 처리(취소 후 쿠폰번호 재사용 가능)
   - http://localhost:8080/ex05?couponId=? (쿠폰번호 입력)
   - 예) http://localhost:8080/ex05?couponId=COUPON-20200607-0000001
- 6. 당일 만료된 쿠폰 리스트 조회
+ 6) 당일 만료된 쿠폰 리스트 조회
   - http://localhost:8080/ex06?baseDt=? (만료일 입력)
   - 예) http://localhost:8080/ex06?baseDt=20200607
- 7. 사용자별 3일후 만료 쿠폰 리스트 조회
+ 7) 사용자별 3일후 만료 쿠폰 리스트 조회
   - http://localhost:8080/ex07?baseDt=?&userId=?(조회기준일과 사용자ID 입력)
   - 예) http://localhost:8080/ex07?baseDt=20200604&userId=jiko
 
