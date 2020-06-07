@@ -534,14 +534,4 @@ public class DemoApplication {
     	return list;
     }
     
-    /*
-    @RequestMapping(value = "/list", method = RequestMethod.GET)
-    public ArrayList<String> list() {
-        ArrayList<String> list = new ArrayList<String>();
-        list.add("cafe");
-        list.add("jjdev");
-        return list;
-    }
-    */
-    
 }
